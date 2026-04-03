@@ -14,6 +14,7 @@ import {
   ChevronRight,
   CheckCircle2,
 } from "lucide-react";
+import { HeroCanvas } from "@/components/hero-canvas";
 
 const benefits = [
   {
@@ -90,6 +91,7 @@ export default function Home() {
 
         {/* HERO */}
         <section className="relative overflow-hidden bg-black text-white text-center px-6 py-28 md:py-40">
+          <HeroCanvas />
           <div
             className="pointer-events-none absolute inset-0"
             style={{
