@@ -6,7 +6,8 @@
       "Bash(npm --version)",
       "Bash(export PATH=\"$PATH:/usr/local/bin:/opt/homebrew/bin\")",
       "Bash(mv /Users/adammccrory/Documents/bop/index.html.bak /tmp/bop-index.html.bak)",
-      "Bash(npx create-next-app@latest /Users/adammccrory/Documents/bop --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)"
+      "Bash(npx create-next-app@latest /Users/adammccrory/Documents/bop --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx shadcn@latest init --yes --defaults)"
     ]
   }
 }
