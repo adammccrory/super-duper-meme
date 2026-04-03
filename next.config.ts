@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/super-duper-meme",
+  basePath: process.env.NODE_ENV === "production" ? "/super-duper-meme" : "",
 };
 
 export default nextConfig;
